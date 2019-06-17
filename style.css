@@ -4,6 +4,7 @@
   margin: 1;
   line-height:2;
   box-sizing: border-box;
+
   /*border: 5px double DeepPink; */
 }
 
@@ -90,6 +91,7 @@ header {
 img {
   width: 600px;
   height: 500px
+
 }
 
 .title {
@@ -100,4 +102,39 @@ img {
 .container {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.banner {
+  height: 350px;
+  background-image:url(background1.jpg);
+  background-size:cover
+  background-position: center;
+}
+
+h3 {
+  color: #4dffff;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 0 5px 2px #4dffff;
+  font-size: 36px
+}
+
+h4 {
+  color: #4dffff;
+  font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 0 5px 2px #4dffff;
+  font-size: 36px
+}
+
+p3 {
+  color: #4dffff;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+footer {
+  color: #4dffff;
+}
+
+li {
+  color : #4dffff;
 }
