@@ -1,20 +1,30 @@
 /*web styles*/
 *  {
-  font-size: 105%;
+  font-size: 100%;
+  margin: 1;
+  line-height:2;
+  box-sizing: border-box;
+  /*border: 5px double DeepPink; */
 }
 
-
 body  {
+  background-image: <img src="arcade-3.jpg (Small).jpg"
+       alt="photo of arcade3"/>
+   text-align:center;
    font-family: 'Ubuntu', sans-serif;
    background-color:black;
    color: DeepPink;
    border: 5px double DeepPink;
-   font-size: 16px
+   font-size: 14px
+   font-weight:normal;
+   margin: 50px;
 }
 
 h1 {
+  text-align: left;
   color: DeepPink;
   font-family: 'Ubuntu', sans-serif;
+  font-weight:bold;
   box-shadow: 0 0 5px 2px DeepPink;
   font-size: 36px
 
@@ -35,6 +45,59 @@ h3 {
   font-size: 36px
 
 }
-p1 {
-  font-size:16px
+
+h1,h2,h3 {
+  font-style:italic;
+  margin-bottom:20px
+}
+}
+p {
+  font-size: 14px
+  line-height: 2;
+  margin: 15px 0;
+}
+
+ul,ol {
+  margin:15px 0;
+}
+
+h1 {text-align: left;
+}
+
+header h1{
+  text-align:center;
+}
+
+a {
+  color: purple;
+  text-decoration: none
+}
+
+a:hover {
+  color:pink
+  text-decoration: underline;
+}
+header,
+section,
+footer {
+  padding: 30px;
+}
+
+header {
+  border-bottom:5px double DeepPink;
+}
+
+img {
+  width: 600px;
+  height: 500px
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
 }
