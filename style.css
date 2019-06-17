@@ -8,40 +8,40 @@
 }
 
 body  {
-  background-image: <img src="arcade-3.jpg (Small).jpg"
-       alt="photo of arcade3"/>
+   background-image: url(b3.jpg);
+   background-repeat: repeat;
    text-align:center;
    font-family: 'Ubuntu', sans-serif;
    background-color:black;
-   color: DeepPink;
-   border: 5px double DeepPink;
-   font-size: 14px
+   color: indigo;
+   border: 5px double #4dffff;
+   font-size: 16px
    font-weight:normal;
    margin: 50px;
 }
 
 h1 {
   text-align: left;
-  color: DeepPink;
+  color: indigo;
   font-family: 'Ubuntu', sans-serif;
   font-weight:bold;
-  box-shadow: 0 0 5px 2px DeepPink;
+  box-shadow: 0 0 5px 2px #4dffff;
   font-size: 36px
 
 }
 h2 {
-  color: DeepPink;
+  color: indigo;
   font-family: 'Ubuntu', sans-serif;
-  box-shadow: 0 0 5px 2px DeepPink;
+  box-shadow: 0 0 5px 2px #4dffff;
   font-size: 36px
 
 }
 
 }
 h3 {
-  color: DeepPink;
+  color: indigo;
   font-family: 'Ubuntu', sans-serif;
-  box-shadow: 0 0 5px 2px DeepPink;
+  box-shadow: 0 0 5px 2px #4dffff;
   font-size: 36px
 
 }
@@ -69,7 +69,7 @@ header h1{
 }
 
 a {
-  color: purple;
+  color: pink;
   text-decoration: none
 }
 
@@ -84,7 +84,7 @@ footer {
 }
 
 header {
-  border-bottom:5px double DeepPink;
+  border-bottom:5px double #4dffff;
 }
 
 img {
