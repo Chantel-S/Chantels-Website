@@ -1,21 +1,40 @@
+/*web styles*/
+*  {
+  font-size: 105%;
+}
+
+
 body  {
    font-family: 'Ubuntu', sans-serif;
-   background-color:pink;
-   color: DarkSlateBlue;
-   border: 5px dotted plum;
+   background-color:black;
+   color: DeepPink;
+   border: 5px double DeepPink;
+   font-size: 16px
 }
 
 h1 {
-  color: purple;
+  color: DeepPink;
   font-family: 'Ubuntu', sans-serif;
-  box-shadow: 0 0 5px 2px magenta;
+  box-shadow: 0 0 5px 2px DeepPink;
+  font-size: 36px
+
 }
 h2 {
-  color: purple;
+  color: DeepPink;
   font-family: 'Ubuntu', sans-serif;
-  box-shadow: 0 0 5px 2px magenta;
+  box-shadow: 0 0 5px 2px DeepPink;
+  font-size: 36px
+
 }
-<p1> {
-  color:indigo;
+
+}
+h3 {
+  color: DeepPink;
   font-family: 'Ubuntu', sans-serif;
+  box-shadow: 0 0 5px 2px DeepPink;
+  font-size: 36px
+
+}
+p1 {
+  font-size:16px
 }
